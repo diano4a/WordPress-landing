@@ -14,6 +14,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -130,7 +131,7 @@ h2.title {
 
 .waiting {
     background: #EFEFEF;
-    height: 607px;
+    min-height: 607px;
     padding: 77px 0 75px 0;
 }
 
@@ -164,13 +165,13 @@ h2.title {
 }
 
 .waiting-wrapper {
-    margin-top: 45px;
+    display: flex;
+    margin-top: 48px;
+    justify-content: space-between;
 }
 
 .waiting .waiting-item {
-    display: inline-block;
     vertical-align: top;
-    margin: 0 15px;
     width: 339px; 
 }
 
@@ -178,6 +179,7 @@ h2.title {
 1) псевдо-селекторы (сказать что у крайнего элемента отступа не будет)
 2) использовать колоночную верстку (отступы задаются при помощи колонок)
 3) использоваться flexbox-верстку */
+
 
 .waiting-img {
     width: 100%;
@@ -192,4 +194,76 @@ h2.title {
     font-size: 15px;
     line-height: 21px;
     text-align: center;
+}
+
+/* SECTION_3 */
+
+.optimization {
+    min-height: 555px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization-header {
+    margin-left: 391px;
+    color: #299CBD;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.optimization-text {
+    margin-left: 391px;
+    margin-top: 25px;
+    color: #4A4A4A;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.optimization-bold-text {
+    color: #4A4A4A;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.optimization-img {
+    position: absolute;
+    top: 5px;
+    left: -240px;
+    z-index: -1;
+}
+
+/* SECTION_4 */
+
+.finishing {
+
+}
+
+.finishing-header {
+
+}
+
+.finishing-divider {
+
+}
+
+.finishing-wrapper {
+
+}
+
+.finishing-item {
+
+}
+
+.finishing-img {
+
+}
+
+.finishing-text {
+    
 }
