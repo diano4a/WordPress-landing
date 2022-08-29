@@ -304,7 +304,7 @@ h2.title {
 }
 
 .present-img {
-    display: flex;
+    display: block;
     margin: 0 auto;
 }
 
@@ -321,7 +321,10 @@ h2.title {
 }
 
 .present .present-btn {
+    display: block;
+    margin: 0, auto;
     margin-top: 51px;
+
 }
 
 /* SECTION_6 */
@@ -366,5 +369,21 @@ h2.title {
     font-weight: 400;
     font-size: 23px;
     line-height: 20px;
+    text-align: center;
+}
+
+/* FOOTER  */
+footer {
+    padding: 57px 457px 69px 458px;
+    background: #1A1A1A;
+}
+
+.footer-info {
+    color: #888888;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
     text-align: center;
 }
